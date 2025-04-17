@@ -14,7 +14,8 @@ for item in mario_data:
         "plays": item["plays"],
         "likes": item["likes"],
         "boos": item["boos"],
-        "world_record": item["world_record"]
+        "world_record": item["world_record"],
+        "upload_time": item["upload_time"]
     }
     loaded_data.append(important_info)
     if len(loaded_data) > n:
